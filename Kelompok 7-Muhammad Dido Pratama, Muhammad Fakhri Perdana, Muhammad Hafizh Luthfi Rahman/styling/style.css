@@ -1,0 +1,148 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    header {
+        width: 1280px;
+        max-width: 1280px;
+        height: 250px;
+        background-image: url('../Images/Header.png');
+        background-size: 1000;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation ul {
+        background-color: #F460B2;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 24px;
+        padding: 12px 32px; 
+        margin: 0;
+    }
+    
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .char {
+        width: 45px;
+        align-self: center;
+    }
+    .subjudul {
+        margin-left: 125px;
+        text-align: left;
+        font-family: fantasy;
+        color: #F460B2;
+        padding-bottom: 0px;
+        border-bottom: 2px solid #F460B2;
+        width: 1000px;
+    }
+    .box {
+        width: 1000px;
+        padding: 15px;
+        border: 4px solid #F460B2;
+        margin: auto;
+        background-color: white;
+        border-radius: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #7CFC00;
+        border-style: dotted;
+    }
+    .box2 {
+        width: 1000px;
+        height: 1500px;
+        padding: 15px;
+        border: 4px solid #F460B2;
+        margin: auto;
+        background-color: white;
+        border-radius: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #7CFC00;
+        display: flex;
+        gap: 1;
+        gap: 2;
+        gap: 3;
+    }
+    .choose {
+        width: 975px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: white;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .inp {
+        width: 975px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .boxin {
+        width: 950px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 0.5em;
+    }
+    .nama {
+        color: #ccc;
+        font-size: medium;
+        font-weight: 400;
+    }
+    .isi {
+        color: black;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #sub {
+        background-color: #00c853;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #MTK {
+        width: 75px;
+        background-color: blue;
+        text-align: center;
+        color: white;
+        border-radius: 0.25em;
+    }
+    #PP {
+        width: 25px;
+        background-color: orangered;
+        text-align: center;
+        color: white;
+        border-radius: 0.25em;
+    }
+    #Sejarah {
+        width: 50px;
+        background-color: green;
+        text-align: center;
+        color: white;
+        border-radius: 0.25em;
+    }
+    footer {
+        width: 100%;
+        background-color: darkgray;
+        margin: 0;
+        padding: 25px 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styling/style.css">
+</head>
+<body>
+    
+    <header>
+        
+    </header>
+    <main>
+        <nav class="navigation">
+            <div>
+                <ul>
+                    <li><a href="dash.html" target="_blank" rel="noopener noreferrer" id="dashboard">Dashboard</a><img src="../Images/Icons/seiunsky1.png" class="char"></li>
+                    <li><a href="#hasilBelajar">Hasil Belajar Siswa</a></li>
+                    <li><a href="#upload">Upload Hasil Belajar</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="subjudul" id="upload">
+            <h2>Upload Hasil Belajar</h2>
+        </nav> 
+        <br>
+        <section class="box">
+            Nama Murid: <br>
+            <input class="inp" type="text" id="name" required minlength="3" placeholder="Masukkan nama lengkap"> <br><br>
+            Kelas: <br>
+            <input class="inp" type="text" id="class" placeholder="Contoh: X PPLG 1"> <br><br>
+            Mata Pelajaran: <br>
+            <select name="mapel" class="inp" id="mapel">
+                <option value="Mapel">-Pilih Mata Pelajaran-</option>
+                <option value="PP">PP</option>
+                <option value="PABP">PABP</option>
+                <option value="B. Inggris">B. Inggris</option>
+                <option value="B. Indonesia">B. Indonesia</option>
+                <option value="PIPAS">PIPAS</option>
+            </select> <br><br>
+            Judul Tugas / Ringkasan Materi: <br> <input type="text" class="inp" id="title" placeholder="Judul Tugas terkait pengelola"> <br> <br>
+            <label for="catat">Hasil Pemahaman / Catatan Belajar: <br> </label><textarea name="catat" class="inp" id="catat" cols="130" rows="7" placeholder="Tuliskan pemahaman kamu tentang materi ini..."></textarea><br>
+            Unggah Berkas Tugas Hasil Karya: <br>
+            <section class="choose">
+                <input type="file" name="Choose File" id="file"><br>
+            </section>
+            <input type="submit" value="Simpan & Display Karya" id="sub">
+        </section>
+        <br>
+
+        
+
+        <nav class="subjudul" id="hasilBelajar">
+            <h2>Daftar Hasil Belajar Siswa</h2>
+        </nav>
+        <br>
+        <section class="box2">
+            <section class="boxin">
+            <h5 class="subJ" id="MTK">Matematika</h5>
+            <p><b>Melakukan Praktik Pengolahan Data Menggunakan Data Sampah Selama Beberapa Minggu</b></p>
+            <p class="nama">Oleh: Muhammad Hafizh Luthfi Rahman | Rombel PPLG X-2</p>
+            <p class="isi">Praktik pengolahan data sampah yang dilakukan oleh siswa dapat menjadi sarana latihan excel dengan data yang valid...</p>
+            </section>
+            <br>
+            <section class="boxin">
+                <h5 class="subJ" id="PP">PP</h5>
+                <p><b>Mengisi Jurnal Pengelolaan Sampah Selama 3 Bulan</b></p>
+                <p class="nama">Oleh: Muhammad Fakhri Perdana | Kelas PPLG X-2</p>
+                <p class="isi">Jurnal pengelolaan sampah dapat menjadi pengingat bagi siswa untuk selalu menjaga lingkungan sekaligus melatih konsistensi dan kejujuran...</p>
+            </section>
+            <br>
+            <section class="boxin">
+                <h5 class="subJ" id="Sejarah">Sejarah</h5>
+                <p><b>Pengenalan Kjokkenmoddinger, Bukti Pengelolaan Sumber Daya Sejak Dahulu Kala</b></p>
+                <p class="nama">Oleh: Muhammad Dido Pratama | Rombel PPLG X-2</p>
+                <p class="isi">Kjokkenmoddinger telah menjadi bukti bahwa nenek moyang manusia pada zaman dahulu pernah mengelola sumber daya. Tumpukan kerang di pesisir menjadi bukti bahwa... </p>
+            </section>
+            <section class="boxin">
+                
+            </section>
+        </section>
+    </main>
+    <br>
+    <footer>
+        2026 Jurusan PPLG-Proyek Kolaborasi Hasil Belajar Pengelolaan Sampah
+    </footer>
+</body>
+</html>
